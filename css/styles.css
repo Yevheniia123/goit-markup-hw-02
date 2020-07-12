@@ -1,0 +1,84 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-collor: #2196F3;
+}
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* цвет текста для футер-адрес rgba(255, 255, 255, 0.6 */
+/* цвет фона вторичный #F5F4FA */
+/* белый #FFFFFF */
+/* черный #000000 */
+/* акцент #2196F3 */
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* шапка */
+.logo {
+    color: #000000;
+    font-family: Raleway;
+}
+.logo:hover {
+    color: var(--accent-collor);
+}
+.logo:focus {
+    color: var(--accent-collor);
+}
+.web {
+    color: var(--accent-collor);
+}
+
+/* site nav */
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-collor);
+}
+
+/* contacts */
+.contacts a {
+    color: var(--primary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-collor);
+}
+
+/* hero */
+.hero {
+    background-color: var(--primary-text-color);
+}
+.hero-title {
+    color:  #FFFFFF;
+}
+.hero a {
+    color: #FFFFFF;
+}
+
+/* title */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+.features .title {
+    color: var(--title-text-color);
+}
+
+/* command */
+.command {
+    background-color: #F5F4FA;
+}
